@@ -1,0 +1,10 @@
+.search-app {
+    margin-bottom: 20px;
+}
+
+.app-search-input {
+    width: 635px;
+    border: 1px solid rgb(163, 152, 152);
+    background-color: rgba(129, 98, 98, 0.068);
+    padding: 5px;
+}

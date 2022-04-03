@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@200&display=swap');
+
+body {
+  background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg),linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.App {
+  font-family: 'Kodchasan', sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 700px;
+  background-color: white;
+  height: 100%;
+  border: 8.5px solid black;
+  border-image: linear-gradient(to right, #ff416c, #ff4b2b) 1;
+}
+
+.flex-app {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.table {
+  padding: 20px;
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.table tr th {
+  background-color: rgba(129, 98, 98, 0.068);
+}
+
+.table th {
+  width: 600px;
+}
